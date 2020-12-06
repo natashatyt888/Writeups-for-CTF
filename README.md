@@ -1,2 +1,3 @@
 # Writeups for CTF
- CTF Writeups for various CTFs
+
+This repository holds the writeups for various CTF challenges.
