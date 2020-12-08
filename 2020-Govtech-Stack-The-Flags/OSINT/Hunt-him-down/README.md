@@ -1,8 +1,8 @@
-#Hunt him down!
+# Hunt him down!
 
 OPEN SOURCE INTELLIGENCE
 
-##DESCRIPTION
+## DESCRIPTION
 After solving the past two incidents, COViD sent a death threat via email today. Can you help us investigate the origins of the email and identify the suspect that is working for COViD? We will need as much information as possible so that we can perform our arrest!
 
 Please view this Document for download instructions.
