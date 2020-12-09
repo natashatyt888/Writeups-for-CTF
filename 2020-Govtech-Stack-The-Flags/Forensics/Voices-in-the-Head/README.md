@@ -18,9 +18,9 @@ We instantly recognised it as base64, and ran it through an [online decoder](htt
 ![Step 2](https://github.com/natashatyt888/Writeups-for-CTF/blob/main/2020-Govtech-Stack-The-Flags/Forensics/Voices-in-the-Head/Step%202.png)
 
 ### Step 3 - Compile brainfuck code
-The link brought us to a pastebin containing brainfork code, which we then ran through a [compiler](https://www.tutorialspoint.com/execute_brainfk_online.php), to obtain the phrase `thisisnottheflag`. This stumpted us for a while, and we eventually gave up until the organizers released the hint `Xiao wants to help. Will you let him help you?`
+The link brought us to a pastebin containing brainfuck code, which we then ran through a [compiler](https://www.tutorialspoint.com/execute_brainfk_online.php), to obtain the phrase `thisisnottheflag`. This stumpted us for a while, and we eventually gave up until the organizers released the hint `Xiao wants to help. Will you let him help you?`
 
-#### Brainfork code
+#### Brainfuck code
 ![Step 3](https://github.com/natashatyt888/Writeups-for-CTF/blob/main/2020-Govtech-Stack-The-Flags/Forensics/Voices-in-the-Head/Step%203.png)
 
 #### Compiled code
