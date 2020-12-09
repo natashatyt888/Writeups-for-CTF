@@ -6,6 +6,9 @@ We found a voice recording in one of the forensic images but we have no clue wha
 Hint:
 Xiao wants to help. Will you let him help you?
 ```
+
+The zip file containing all forensic files can be found [here](https://public-download-files-9vj6yp3nvf-cat-3.s3-ap-southeast-1.amazonaws.com/forensics-challenges.zip).
+
 ## Solution
 ### Step 1 - Spectrograph
 Upon downloading the audio file, we first listened to it, and then ran it through SSTV, which did not yield any results. After that, we used [Audacity](https://www.audacityteam.org/download/) to open the file as a spectrograph to obtain the following image, which revealed the alphanumeric string `aHR0cHM6Ly9wYXN0ZWJpbi5jb20vakVUajJ1VWI=`.
