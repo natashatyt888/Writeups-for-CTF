@@ -9,14 +9,29 @@ If you think that it's 7.24pm in which the photo was taken. Please take the asso
 Flag Example: govtech-csg{1.401146_103.927020_1990:12:30_2000-2200}
 
 Flag Format: govtech-csg{lat_long_date_[two hour block format]}
-Use this [calculator](https://www.pgc.umn.edu/apps/convert/)!
+Use this calculator!
 
 Addendum:
 - The amount of decimal places required is the same as shown in the example given.
 - CLI tool to get something before you convert it with the calculator.
 ```
 
+The zip file containing all OSINT files can be found [here](https://public-download-files-9vj6yp3nvf-cat-3.s3-ap-southeast-1.amazonaws.com/OSINT+Challenge.zip).
+The link for the calculator in the description can be found [here](https://public-download-files-9vj6yp3nvf-cat-3.s3-ap-southeast-1.amazonaws.com/OSINT+Challenge.zip ).
 
-Only time will tell: exiftool the image to find the lat & long & confirmed it by googling for the lat & long, scan barcode to get the date of 25 Oct 2020
+
+## Solution
+
+### Image provided
+
+### Step 1 - Linux exiftool to find lat and long
+Only time will tell: exiftool the image to find the lat & long & confirmed it by googling for the lat & long, 
+
+### Step 2 - Scan barcode to find the date
+scan barcode to get the date of 25 Oct 2020
+
+### Step 3 - Finding time
 bruteforced the time, started past 12 due to the shadows on the ground 
-govtech-csg{1.286647_103.846836_2020:10:25_1500-1700}
+
+## Flag
+`govtech-csg{1.286647_103.846836_2020:10:25_1500-1700}`
