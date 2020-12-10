@@ -17,7 +17,8 @@ Addendum:
 ```
 
 The zip file containing all OSINT files can be found [here](https://public-download-files-9vj6yp3nvf-cat-3.s3-ap-southeast-1.amazonaws.com/OSINT+Challenge.zip).
-The link for the calculator in the description can be found [here](https://public-download-files-9vj6yp3nvf-cat-3.s3-ap-southeast-1.amazonaws.com/OSINT+Challenge.zip ).
+
+The link for the calculator in the description can be found [here](https://www.pgc.umn.edu/apps/convert/).
 
 
 ## Solution
