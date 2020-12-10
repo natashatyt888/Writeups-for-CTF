@@ -25,14 +25,45 @@ The link for the calculator in the description can be found [here](https://www.p
 
 ### Image provided
 
-### Step 1 - Linux exiftool to find lat and long
-Only time will tell: exiftool the image to find the lat & long & confirmed it by googling for the lat & long, 
+The image given for this challenge features a sign that reads "Speaker's Corner", which is known to be situated in Hong Lim Park in Singapore. There's also a barcode at the bottom left, which when scanned gave the date when the photograph was taken.
+
+![OSINT 6](https://github.com/natashatyt888/Writeups-for-CTF/blob/main/2020-Govtech-Stack-The-Flags/OSINT/Only-Time-Will-Tell/osint-challenge-6.jpg)
+
+### Step 1 - Linux exiftool to find latitude and longitude
+
+Using Linux to run the `exiftool osint-challenge-6.jpg` terminal command, we were able to find the Degrees Minutes Seconds (DMS) of the location of the sign.
+
+```
+GPS Latitude: 1 deg 17' 11.93" N
+GPS Longitude: 103 deg 50' 48.61" E
+```
+
+![Step 1](https://github.com/natashatyt888/Writeups-for-CTF/blob/main/2020-Govtech-Stack-The-Flags/OSINT/Only-Time-Will-Tell/Step%201.png)
+
+
+Next, we used the [website](https://www.pgc.umn.edu/apps/convert/) suggested to us to find the Decimal Degrees (DD), using the DMS and obtained the following results. Referring to the examples provided, we were required to leave the latitude and longitude to **6 significant figures**.
+
+```
+Latitude: 1.286647°
+Longitude: 103.846836°
+```
+
+![Step 1 p2](https://github.com/natashatyt888/Writeups-for-CTF/blob/main/2020-Govtech-Stack-The-Flags/OSINT/Only-Time-Will-Tell/Step%203.png)
+
+This gave us the first part of the flag:
+`govtech-csg{1.286647_103.846836_`
 
 ### Step 2 - Scan barcode to find the date
-scan barcode to get the date of 25 Oct 2020
+
+After fining those coordinates, we had to isolate the barcode, which was done by zooming in and taking a screenshot, and obtained this rather blurry image.
+
+![barcode](https://github.com/natashatyt888/Writeups-for-CTF/blob/main/2020-Govtech-Stack-The-Flags/OSINT/Only-Time-Will-Tell/Step%202%20p1.png)
+
+Using an [online barcode reader](https://online-barcode-reader.inliteresearch.com/), we uploaded the image to the website and scanned it, to obtain the date "25 October 2020", giving us the second part of the flag. As we were required to order the date in the format **YYYY:MM:DD**, the flag now looks like that:
+`govtech-csg{1.286647_103.846836_2020:10:25`
 
 ### Step 3 - Finding time
-bruteforced the time, started past 12 due to the shadows on the ground 
+Lastly, we had to find the time which the picture was taken, given in a **2-hour time frame**. As we had unlimited attempts, we decided to brute force the time, as we were certain that everything else was correct. Based on the shadows in image, it looked to be early afternoon. Thus, we started from 1200-1400, and quickly found the flag, which was `1500-1700`. With that, we had found every part of the flag.
 
 ## Flag
 `govtech-csg{1.286647_103.846836_2020:10:25_1500-1700}`
