@@ -18,7 +18,7 @@ As the documents were 3 video files, the clues must once again be within the con
 
 ![firstvideo](https://raw.githubusercontent.com/natashatyt888/Writeups-for-CTF/main/2020-Govtech-Stack-The-Flags/OSINT/Where-was-he-kidnapped/busnumber.png)
 
-The first file reveals that the engineer got onto bus 117, headed towards Punggol Interchange, opposite what appears to be an MRT station. Looking at [Citymapper](https://citymapper.com) for the [route of bus 117](https://citymapper.com/singapore/bus/sbs-transit-117), we see that it passes opposite 4 MRT stations on its way to Punggol - Sembawang, Canberra, Yishun, and Khatib. Based upon the architecture of the station seen in the video, Canberra MRT station can be eliminated as it does not architecturally match the station seen in the video. Using [Street View](Yishun Ave 2 - Google Maps) to compare the locations reveals that the engineer got on the bus opposite Khatib MRT.
+The first file reveals that the engineer got onto bus 117, headed towards Punggol Interchange, opposite what appears to be an MRT station. Looking at [Citymapper](https://citymapper.com) for the [route of bus 117](https://citymapper.com/singapore/bus/sbs-transit-117), we see that it passes opposite 4 MRT stations on its way to Punggol - Sembawang, Canberra, Yishun, and Khatib. Based upon the architecture of the station seen in the video, Canberra MRT station can be eliminated as it does not architecturally match the station seen in the video. Using [Street View](https://goo.gl/maps/U111tPAP5WUR8tf56) to compare the locations reveals that the engineer got on the bus opposite Khatib MRT.
 
 ### Second Video
 
@@ -30,7 +30,7 @@ The text on the second video suggests that it was taken some distance away from 
 
 Looking at the video, we can see that there are prominent yellow pillars near the bus stop, and can also deduce from the architecture of both the pillars and the background building that we are still in the older section of Yishun/Khatib, which rules out any bus stop after Block 871, as the entire neighbourhood along Yishun Avenue 1 after that point was built relatively recently.
 
-Thus, it would be logical to check each of the 3 remaining bus stops, starting from the furthest (Block 871). Going into [Street View](Yishun Ave 1 - Google Maps) at the bus stop shows the same yellow pillars as in the video - and which is absent from the other 2 bus stops, indicating that the engineer alighted here.
+Thus, it would be logical to check each of the 3 remaining bus stops, starting from the furthest (Block 871). Going into [Street View](https://goo.gl/maps/iTcXPmFK5mvbP9Gx5) at the bus stop shows the same yellow pillars as in the video - and which is absent from the other 2 bus stops, indicating that the engineer alighted here.
 
 ### Third Video
 
