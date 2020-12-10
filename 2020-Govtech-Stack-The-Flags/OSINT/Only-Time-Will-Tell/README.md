@@ -60,10 +60,12 @@ After fining those coordinates, we had to isolate the barcode, which was done by
 ![barcode](https://github.com/natashatyt888/Writeups-for-CTF/blob/main/2020-Govtech-Stack-The-Flags/OSINT/Only-Time-Will-Tell/Step%202%20p1.png)
 
 Using an [online barcode reader](https://online-barcode-reader.inliteresearch.com/), we uploaded the image to the website and scanned it, to obtain the date "25 October 2020", giving us the second part of the flag. As we were required to order the date in the format **YYYY:MM:DD**, the flag now looks like that:
-`govtech-csg{1.286647_103.846836_2020:10:25`
+`govtech-csg{1.286647_103.846836_2020:10:25_`
 
 ### Step 3 - Finding time
-Lastly, we had to find the time which the picture was taken, given in a **2-hour time frame**. As we had unlimited attempts, we decided to brute force the time, as we were certain that everything else was correct. Based on the shadows in image, it looked to be early afternoon. Thus, we started from 1200-1400, and quickly found the flag, which was `1500-1700`. With that, we had found every part of the flag.
+Lastly, we had to find the time which the picture was taken, given in a **2-hour time frame**. As we had unlimited attempts, we decided to brute force the time, as we were certain that everything else was correct. Based on the shadows in image, it looked to be early afternoon. Thus, we started from 1200-1400, and quickly found the flag, which was `1500-1700`. With that, we had found every part of the flag, giving us the complete flag:
+
+`govtech-csg{1.286647_103.846836_2020:10:25_1500-1700}`
 
 ## Flag
 `govtech-csg{1.286647_103.846836_2020:10:25_1500-1700}`
