@@ -1,5 +1,5 @@
 # Forensics - Voices in the Head
-## Description:
+## Description
 ```
 We found a voice recording in one of the forensic images but we have no clue what's the voice recording about. Are you able to help?
 
