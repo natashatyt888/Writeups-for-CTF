@@ -78,7 +78,7 @@ This, however, is incongruous with what we have from the EXIF data. However, as 
 ### Step 3 - Finding the time
 
 Finally, we've got to find the last portion of the flag, the time in a **2-hour time frame**. Since the dates given in the EXIF data are most likely wrong, we'll have to try and obtain the time by other means.
-Based on the lighting conditions and shadow length, it's reasonable to assume that this photograph was taken some time in the late morning to early afternoon (probably from `1000h` to `1600h`. Although we have unlimited tries and we could certainly try to brute-force this, let's try to narrow down the possible range of times we'll have to check. The buildings in the background are pretty prominent, and looking up the locations on Google Earth reveal them to be the Parkroyal on Pickering hotel, Furama City Center hotel, and the Singapore State Courts Towers.
+Based on the lighting conditions and shadow length, it's reasonable to assume that this photograph was taken some time in the late morning to early afternoon (probably from `1000h` to `1600h`). Although we have unlimited tries and we could certainly try to brute-force this, let's try to narrow down the possible range of times we'll have to check. The buildings in the background are pretty prominent, and looking up the locations on Google Earth reveal them to be the Parkroyal on Pickering hotel, Furama City Center hotel, and the Singapore State Courts Towers.
 
 ![replicated view](https://raw.githubusercontent.com/natashatyt888/Writeups-for-CTF/main/2020-Govtech-Stack-The-Flags/OSINT/Only-Time-Will-Tell/replicated-google-earth-view.png)
 
