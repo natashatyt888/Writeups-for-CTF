@@ -1,6 +1,6 @@
 # OSINT - Only time will tell!
 
-## Description: 
+## Description
 ```
 This picture was taken sent to us! It seems like a bomb threat! Are you able to tell where and when this photo was taken? This will help the investigating officers to narrow down their search! All we can tell is that it's taken during the day!
 
