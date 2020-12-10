@@ -45,7 +45,7 @@ GPS Longitude: 103 deg 50' 48.61" E
 
 ### Step 1 - Location verification with some Google-fu and maps
 
-From the photograph, we can clearly see that this was taken at Speaker's Corner in Hong Lim Park, a prominent landmark in Singapore. Even if we didn't know this prior to this, a quick Google search for `"Speaker's Corner singapore"` would bring up [this Wikipedia article about Speaker's Corner](https://en.wikipedia.org/wiki/Speakers%27_Corner,_Singapore), and a [very similar image](https://cdn.i-scmp.com/sites/default/files/d8/images/methode/2019/07/12/a9cb401e-a3bb-11e9-9a3c-98259c87fba2_image_hires_125138.JPG) with the same buildings in the background.
+From the photograph, we can clearly see that this was taken at Speaker's Corner in Hong Lim Park, a prominent landmark in Singapore. Even if we didn't have this prior knowledge, a quick Google search for `"Speaker's Corner singapore"` would bring up [this Wikipedia article about Speaker's Corner](https://en.wikipedia.org/wiki/Speakers%27_Corner,_Singapore), and a [very similar image](https://cdn.i-scmp.com/sites/default/files/d8/images/methode/2019/07/12/a9cb401e-a3bb-11e9-9a3c-98259c87fba2_image_hires_125138.JPG) with the same buildings in the background.
 
 Time to see if the coordinates from the EXIF data were correct. Putting those values into Google Maps/Earth reveals that yes, this is indeed the correct place.
 
