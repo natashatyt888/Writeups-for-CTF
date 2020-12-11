@@ -28,7 +28,7 @@ This thus leaves us with [Punggol Park](https://www.google.com.sg/maps/place/Pun
 
 *Punggol* Park is located in *Sengkang*. ಠ_ಠ
 
-A quick search of the postal code for Punggol Park gives us the code `538768`.
+**A quick search of the postal code for Punggol Park gives us the code `538768`.**
 
 ![Image](https://github.com/natashatyt888/Writeups-for-CTF/blob/main/2020-Govtech-Stack-The-Flags/OSINT/Sounds-Of-Freedom/Screenshot_1.png)
 
