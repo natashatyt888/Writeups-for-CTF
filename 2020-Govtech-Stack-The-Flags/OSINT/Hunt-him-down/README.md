@@ -37,9 +37,9 @@ From this, we now know our target's name, or at least part of it: `Lionel Cheng`
 
 #### Carousell
 
-![carousell](https://www.carousell.sg/p/playstation-1-1045623891/)
+![carousell](https://github.com/natashatyt888/Writeups-for-CTF/blob/main/2020-Govtech-Stack-The-Flags/OSINT/Hunt-him-down/carousell-location.png)
 
-Looking further into the Carousell listing, the only other useful piece of information that we can obtain is the target's possible rough location - somewhere near City Hall MRT station. This isn't a guarantee that his residential address will be nearby, however, as the area around City Hall MRT station is primarily commercial. It is still something to keep in mind, however.
+Looking further into the [Carousell listing](https://www.carousell.sg/p/playstation-1-1045623891/), the only other useful piece of information that we can obtain is the target's possible rough location - somewhere near City Hall MRT station. This isn't a guarantee that his residential address will be nearby, however, as the area around City Hall MRT station is primarily commercial. It is still something to keep in mind, however.
 
 #### Instagram
 
