@@ -71,4 +71,4 @@ It appears that we have the full flag, which turned out to be correct!
 
 ### Flag
 
-`govtech-csg{LionelCheng(x?)(y?)-96362918-018935}`
+`govtech-csg{LionelChengXiangYi-96362918-018935}`
